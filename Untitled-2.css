@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align:start;
+    
+    height:100vh;
+    min-width: 200vh;
+   color: honeydew;
+
+
+}
+.one{
+background: crimson;
+}
+.two{
+background: cyan;
+}
+.three{
+background: darkgreen;
+}
+.four{
+background: darkorchid;
+}
+
+
+
